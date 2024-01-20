@@ -43,6 +43,3 @@ jobs:
           pip install nose  # Install nose or nose2
       - name: Run unit tests with nose
         run: nosetests -v --with-coverage --cover-package=app
-
-#Added to have something to push
-#Try to push again after adding write permission to github token key
